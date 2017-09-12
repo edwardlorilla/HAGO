@@ -1,21 +1,38 @@
-plant
+Plants
 
-user_id 	-> integer
-name		-> string
-description	-> string
-scientificName	-> string
-locaton: 	-> array
+photo_id                    -> integer
+color_id                    -> integer
+user_id 	                  -> integer
+name		                    -> string
+description	                -> string
+scientificName	            -> string
+locaton: 	                  -> object
+{
+  latitude	                ->object ->float
+  longtitude	              ->object ->float
+}
+
+-------------------------------------
+one_to_relation
+-------------------------------------
+
+Colors
+
+vibrant_color               ->array
 [
-  latitude	->object ->float
-  longtitude	->object ->float
+  color                     ->string
 ]
-
-
+-------------------------------------
 
 
 Users
 
-userName	-> string
-password	-> string
-email		-> string
+userName	                 -> string
+password	                 -> string
+email		                   -> string
+
+
+Photos
+
+image                      ->string
 
