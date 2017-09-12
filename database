@@ -1,0 +1,21 @@
+plant
+
+user_id 	-> integer
+name		-> string
+description	-> string
+scientificName	-> string
+locaton: 	-> array
+[
+  latitude	->object ->float
+  longtitude	->object ->float
+]
+
+
+
+
+Users
+
+userName	-> string
+password	-> string
+email		-> string
+
